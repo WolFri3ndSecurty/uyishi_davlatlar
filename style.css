@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tepa{
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 200;
+}
+body{
+  font-family: "JetBrains Mono",monospace !important
+}
+.button-30 {
+  align-items: center !important;
+  appearance: none !important;
+  background-color: #FCFCFD !important;
+  border-radius: 4px !important;
+  border-width: 0 !important;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset !important;
+  box-sizing: border-box !important;
+  color: #36395A !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  font-family: "JetBrains Mono",monospace !important;
+  height: 48px !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+  list-style: none !important;
+  overflow: hidden !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  position: relative !important;
+  text-align: left !important;
+  text-decoration: none !important; 
+  transition: box-shadow .15s,transform .15s !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  touch-action: manipulation !important;
+  white-space: nowrap !important;
+  will-change: box-shadow,transform !important;
+  font-size: 18px !important; 
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover { 
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+.card {
+  box-sizing: border-box;
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.card:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+.davlatlar{
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+}
+.bayroq{
+  width: 500px;
+}
